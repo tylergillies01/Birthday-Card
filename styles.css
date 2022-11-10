@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Happy Monkey', cursive;
+
+    text-align: center;
+    margin-top: 50px;
+
+    /* background-color: #a2d2ff; */
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: white;
+    
+    
+}
+
+
+#picture {
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1, h2, h4, h3, p {
+    text-shadow: 0 0 2px black;
+}
+
+#age {
+    background-color: #EFB0C9;
+
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+#date {
+    background-color: #EFB0C9;
+
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    margin-top: 0;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-img {
+    width: 550px;
+    height: 450px;
+    border: 5px solid black;
+    border-radius: 10px;
+
+    background-image: url("gift-icon.png");
+    background-size: cover;
+    margin: 20px auto;
+}
+
+#gift-img-happy:hover {
+    background-image: url("happy.gif");
+}
+
+#gift-img-dog:hover {
+    background-image: url("dog.gif");
+}
+
+#gift-img-llama:hover {
+    background-image: url("llama.gif");
+}
+
+#gift-img-smart:hover {
+    background-image: url("smart.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("cheers.gif");
+}
+
+/* #gift-img-cheers {
+    height: 200px;
+    background-size: cover;
+} */
+
+
+.gift-title {
+    margin-bottom: 20px;
+}
+.gift-hint {
+    margin-top: 0px;
+}
+
+
+.footer {
+    margin: 100px 0;
+    font-style: italic;
+}
